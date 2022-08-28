@@ -1,0 +1,99 @@
+.home{
+    width: 100vw;
+    display: flex;
+
+    .section{
+        &__home1{
+            flex:5;
+            width: 100vw;
+            height: 100vh;
+            // background-image: url('https://media.istockphoto.com/photos/colorful-background-red-$color-blue-and-yellow-orange-colors-abstract-modern-picture-id1332601848?k=20&m=1332601848&s=612x612&w=0&h=nJitzzCRENrbzINUzMPFhvZSiF1L3YOXsGs-M9WLYxU=');
+            background-image: linear-gradient(to left, $color-formBg-light, $color-formBg-dark);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 5rem 3rem;
+
+            .div{
+                font-family: 'Basic', sans-serif;
+
+                &__appInfo{
+                    width: 90%;
+                    margin: 8rem auto 0 auto;                    
+                }
+                &__h1-introHeading{
+                    font-size: 2.9rem;
+                    font-family: inherit;
+                    margin-bottom: 1rem;
+                    color: $color-blue;
+                }
+                &__p-info{
+                    font-size: 1.8rem;
+                    font-family: inherit;
+                    font-weight: 500;
+                    margin: .6rem 0;
+                    text-align: justify;
+
+                }
+                .spec-p{
+                    margin: 1rem 0;
+                }
+            }
+        }
+        &__home2{
+            flex: 7;
+            padding: 10rem 4rem;
+
+            .form{
+                width: 80%;
+                padding: 2rem;
+                margin: 0 auto;
+                font-family: 'Lora', serif;
+                background-image: linear-gradient(to right, $color-formBg-light, $color-formBg-dark);
+                color: $color-black;
+                border-radius: 20px 0 20px 0;
+
+                &__h2{
+                    font-size: 2.8rem;
+                    font-family: inherit;
+                    font-weight: 400;
+                    text-align: start;
+                    margin-bottom: 6rem;
+                    color: $color-blue;
+                }
+                &__label{
+                    font-size: 1.8rem;
+                    font-family: inherit;
+                    margin-bottom: 1rem;
+                    display: block;
+                }
+                &__input{
+                    width: 70%;
+                    padding: 1rem 2rem;
+                    font-family: inherit;
+                    font-size: 1.5rem;
+                    margin: 1rem 0;
+                    outline: none;
+                    border-style: none;
+                    border-radius: 20px 0 20px 0;
+                }
+                &__btn{
+                    display: block;
+                    padding: 1.2rem;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 1.4rem;
+                    font-family: inherit;
+                    font-weight: 700;
+                    width: 70%;
+                    border-style: none;
+                    border-radius: 10px;
+                    margin: 1rem 0;
+                    background: rgba(gray, .4);
+                }
+            }
+        }
+    }
+}
+.icons-mess{
+    color: $color-blue;
+}
