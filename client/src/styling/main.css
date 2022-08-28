@@ -49,8 +49,8 @@ a {
           flex: 5;
   width: 100vw;
   height: 100vh;
-  background-image: -webkit-gradient(linear, right top, left top, from(#fecb49), to(#ff5600));
-  background-image: linear-gradient(to left, #fecb49, #ff5600);
+  background-image: -webkit-gradient(linear, right top, left top, from(#ACC9D7), to(#5F7895));
+  background-image: linear-gradient(to left, #ACC9D7, #5F7895);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5rem 3rem;
@@ -69,7 +69,7 @@ a {
   font-size: 2.9rem;
   font-family: inherit;
   margin-bottom: 1rem;
-  color: #0f0ade;
+  color: #ED4D6E;
 }
 
 .home .section__home1 .div__p-info {
@@ -96,8 +96,8 @@ a {
   padding: 2rem;
   margin: 0 auto;
   font-family: 'Lora', serif;
-  background-image: -webkit-gradient(linear, left top, right top, from(#fecb49), to(#ff5600));
-  background-image: linear-gradient(to right, #fecb49, #ff5600);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ACC9D7), to(#5F7895));
+  background-image: linear-gradient(to right, #ACC9D7, #5F7895);
   color: black;
   border-radius: 20px 0 20px 0;
 }
@@ -108,7 +108,7 @@ a {
   font-weight: 400;
   text-align: start;
   margin-bottom: 6rem;
-  color: #0f0ade;
+  color: #ED4D6E;
 }
 
 .home .section__home2 .form__label {
@@ -145,6 +145,6 @@ a {
 }
 
 .icons-mess {
-  color: #0f0ade;
+  color: #ED4D6E;
 }
 /*# sourceMappingURL=main.css.map */
