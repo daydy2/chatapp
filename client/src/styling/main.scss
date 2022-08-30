@@ -7,5 +7,9 @@
 //HOMEPAGE
 @import './components/home';
 
-//CHAT PAGE
-@import "./components/chatpage.scss";
+
+//CHATPAGE n COMPS
+@import './components/chatpage';
+@import './components/chatbar';
+@import './components/chatbody';
+@import './components/_chatfooter';

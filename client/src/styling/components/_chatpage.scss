@@ -1,0 +1,14 @@
+.chatPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    .div{
+        &__chatbody{
+            flex: 10;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+}

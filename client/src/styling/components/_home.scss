@@ -7,8 +7,9 @@
             flex:5;
             width: 100vw;
             height: 100vh;
-            // background-image: url('https://media.istockphoto.com/photos/colorful-background-red-$color-blue-and-yellow-orange-colors-abstract-modern-picture-id1332601848?k=20&m=1332601848&s=612x612&w=0&h=nJitzzCRENrbzINUzMPFhvZSiF1L3YOXsGs-M9WLYxU=');
-            background-image: linear-gradient(to left, $color-formBg-light, $color-formBg-dark);
+            // background-image: url('https://media.istockphoto.com/photos/colorful-background-red-$color-text-header-and-yellow-orange-colors-abstract-modern-picture-id1332601848?k=20&m=1332601848&s=612x612&w=0&h=nJitzzCRENrbzINUzMPFhvZSiF1L3YOXsGs-M9WLYxU=');
+            // background-image: linear-gradient(to left, $color-formBg-light, $color-formBg-dark);
+            background-color: $color-formBg-light;
             background-size: cover;
             background-repeat: no-repeat;
             padding: 5rem 3rem;
@@ -24,7 +25,7 @@
                     font-size: 2.9rem;
                     font-family: inherit;
                     margin-bottom: 1rem;
-                    color: $color-blue;
+                    color: $color-text-header;
                 }
                 &__p-info{
                     font-size: 1.8rem;
@@ -55,10 +56,10 @@
                 &__h2{
                     font-size: 2.8rem;
                     font-family: inherit;
-                    font-weight: 400;
+                    font-weight: bolder;
                     text-align: start;
                     margin-bottom: 6rem;
-                    color: $color-blue;
+                    color: $color-text-header;
                 }
                 &__label{
                     font-size: 1.8rem;
@@ -95,5 +96,5 @@
     }
 }
 .icons-mess{
-    color: $color-blue;
+    color: $color-text-header;
 }
