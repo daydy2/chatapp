@@ -8,7 +8,8 @@
         "base/_animation.scss",
         "base/_base.scss",
         "components/_components.scss",
-        "components/_home.scss"
+        "components/_home.scss",
+        "components/chatpage.scss"
     ],
     "names": [],
     "file": "main.css"
