@@ -10,10 +10,10 @@ const ChatPage = () => {
     <div className="chatPage">
       <ChatBar />
       <div className="div__chatbody">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-        itaque molestias deleniti temporibus voluptatibus, dolorem atque odit
-        alias ipsam similique, odio facilis quasi recusandae nihil, explicabo
-        quis optio sunt exercitationem.
+        <div className="navbar">
+        <p className="hangout">Hangout with colleagues</p>
+        <button className="leave_chat">LEAVE CHAT</button>
+        </div>
         <ChatBody />
         <ChatFooter />
       </div>
