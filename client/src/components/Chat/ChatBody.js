@@ -5,7 +5,7 @@ const ChatBody = () => {
   return (
     <div className="chatBody">
       <header className="div__header">
-        <p></p>
+        <p>Hello World</p>
       </header>
     </div>
   )
